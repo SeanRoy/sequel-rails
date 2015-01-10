@@ -101,7 +101,7 @@ module SequelRails
       end
 
       def add_connection_settings(commands)
-        add_option commands, '--username', username
+        add_option commands, '--user', username
         add_option commands, '--host', host
         add_option commands, '--port', port.to_s
       end
